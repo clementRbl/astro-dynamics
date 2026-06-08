@@ -1,0 +1,30 @@
+[project]
+name = "astro-dynamics"
+version = "0.1.0"
+description = "Projet d'apprentissage par renforcement - Atterrisseur lunaire Eagle"
+requires-python = ">=3.12"
+
+dependencies = [
+    "gymnasium[classic-control]>=1.0",
+    "stable-baselines3>=2.0",
+    "matplotlib>=3.8",
+    "ipykernel>=6.0",
+    "nbconvert>=7.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9",
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

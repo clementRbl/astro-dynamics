@@ -1,0 +1,22 @@
+# Environnement virtuel uv
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache ruff et pytest
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+
+# Docs
+note.md
