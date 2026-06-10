@@ -23,6 +23,8 @@ note.md
 
 # Modèles entraînés
 *.zip
+models/
+logs/
 
 # Fichiers du mentor
 p11_guide_4*
