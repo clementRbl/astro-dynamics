@@ -18,5 +18,8 @@ htmlcov/
 # Fichiers système
 .DS_Store
 
+# Modèles sauvegardés
+*.zip
+
 # Docs
 note.md
