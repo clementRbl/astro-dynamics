@@ -5,7 +5,7 @@ description = "Projet d'apprentissage par renforcement - Atterrisseur lunaire Ea
 requires-python = ">=3.12"
 
 dependencies = [
-    "gymnasium[classic-control]>=1.0",
+    "gymnasium[box2d,classic-control]>=1.0",
     "stable-baselines3>=2.0",
     "matplotlib>=3.8",
     "ipykernel>=6.0",
