@@ -20,3 +20,9 @@ htmlcov/
 
 # Docs
 note.md
+
+# Modèles entraînés
+*.zip
+
+# Fichiers du mentor
+p11_guide_4*
