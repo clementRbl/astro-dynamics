@@ -50,6 +50,6 @@ uv run pytest
 ## Progression
 
 - [x] Exercice 1 — Blocs de construction de l'apprentissage par renforcement
-- [ ] Exercice 2 — Agent avec Q-table
+- [x] Exercice 2 — Agent avec Q-table
 - [ ] Exercice 3 — Agent avec DQN
 - [ ] Mission — Atterrisseur lunaire Eagle
