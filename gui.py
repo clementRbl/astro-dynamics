@@ -62,6 +62,18 @@ if run:
             "Impossible de joindre l'API. Lancez-la d'abord : `uv run uvicorn api:app`"
         )
         st.stop()
+    # On mémorise la partie pour qu'elle survive aux ré-exécutions (slider, etc.).
+    st.session_state["episode"] = {
+        "frames": frames,
+        "actions": actions,
+        "total_reward": total_reward,
+    }
+
+if "episode" in st.session_state:
+    episode = st.session_state["episode"]
+    frames = episode["frames"]
+    actions = episode["actions"]
+    total_reward = episode["total_reward"]
 
     color = "green" if total_reward >= 200 else "orange" if total_reward >= 0 else "red"
     st.markdown(

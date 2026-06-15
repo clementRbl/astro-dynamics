@@ -26,5 +26,9 @@ note.md
 models/
 logs/
 
+# ...mais on versionne la vidéo de démonstration de l'atterrissage
+!logs/videos/
+!logs/videos/*.mp4
+
 # Fichiers du mentor
 p11_guide_4*
