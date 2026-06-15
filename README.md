@@ -52,4 +52,4 @@ uv run pytest
 - [x] Exercice 1 — Blocs de construction de l'apprentissage par renforcement
 - [x] Exercice 2 — Agent avec Q-table
 - [x] Exercice 3 — Agent avec DQN
-- [ ] Mission — Atterrisseur lunaire Eagle
+- [x] Mission — Atterrisseur lunaire Eagle
